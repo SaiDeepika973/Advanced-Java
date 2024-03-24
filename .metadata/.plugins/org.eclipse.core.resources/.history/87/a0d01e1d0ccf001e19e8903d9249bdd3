@@ -1,0 +1,69 @@
+<html>
+	<head>
+		<title>Registration Application</title>
+	</head>
+
+	<body bgcolor='pink'>
+		<form method="get" action="./RegistrationServlet">
+
+		<label>User Name:</label>
+		<input type="text" name="username" required/>
+		<br><br>
+
+		<label>User Password:</label>
+		<input type="password" name="password" required/>
+		<br><br>
+
+		<label>User Mobile:</label>
+		<input type="number" name="mobile" required/>
+		<br><br>
+
+		<label>User Email:</label>
+		<input type="email" name="mail" required/>
+		<br><br>
+
+		<label>Gender:</label>
+		<input type="radio" name="gender" value="Male"/>Male
+		<input type="radio" name="gender" value="Female"/>Female
+		<br><br>
+
+		<label>Date Of Birth:</label>
+		<input type="date" name="dob" required/>
+		<br><br>
+
+		<label>Qualification:<label>
+		<input type="checkbox" name="qualification" value="BSc"/>BSc
+		<input type="checkbox" name="qualification" value="MCA"/>MCA
+		<input type="checkbox" name="qualification" value="BTech"/>BTech
+		<input type="checkbox" name="qualification" value="Mtech"/>MTech
+		<br><br>
+
+		<label>Country:</label>
+		<select name="country">
+			<option>INDIA</option>
+			<option>AMERICA</option>
+			<option>LONDON</option>
+			<option>AFRICA</option>
+		</select>
+		<br><br>
+
+		<label>Languages:</label>
+		<select name="languages" size='3' multiple>
+			<option>Telugu</option>
+			<option>Hindi</option>
+			<option>English</option>
+			<option>Tamil</option>
+			<option>Kannada</option>
+		</select>
+		<br><br>
+		
+		<label>Comments about Ratan Sir:</label>
+		<textarea name="comments" rows=4 cols="25">
+		</textarea>
+		<br><br>
+
+		<input type="submit" value="register"/>
+		
+		</form>
+	</body>
+<html>

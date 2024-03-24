@@ -1,0 +1,49 @@
+//Ternary operators
+function AdultorChild()
+{
+	let age=document.getElementById('age')
+	let ans=(age<18)?"child":"adult"
+	document.getElementById('adorch')=ans
+}
+
+function DrinkorNot()
+{
+	let age=document.getElementById('age1')
+	document.write((age<18)?"water":"wine")
+}
+
+function StringToNumber()
+{
+	let num=document.getElementById('number')
+	document.write(Number(num))
+	document.write(parseFloat(num))
+	document.write(parseInt(num))
+}
+function NumberToString()
+{
+	let num=String(document.getElementById('number1'))
+	let num2=String(document.getElementById('number2'))
+	document.write(num+num2)
+}
+function BooleanData()
+{
+	let a=Boolean(document.getElementById('b'))
+	document.write(a)
+}
+function compare()
+{
+	let one=document.getElementById('one')
+	let two=document.getElementById('two')
+	document.write(one==two)
+	document.write(one===two)
+}
+function logical()
+{
+	let a=document.getElementById('a')
+	let b=document.getElementById('b')
+	
+	document.write(a && b)
+	document.write(a||b)
+}
+	
+	

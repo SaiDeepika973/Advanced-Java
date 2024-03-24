@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<title>Form</title>
+		<script type="text/javascript" src="TypeConversion.js"></script>
+	</head>
+	<body>
+		<form>
+			<label>Enter the age to check whether adult or child:</label>
+			<input type="text" id="age" oninput="AdultorChild()" required>
+			<br>
+			<label>Adult or child:</label>
+			<input type="text" id="adorch" readonly>
+			<br><br>
+			
+			<label>Enter the age to check what to drink:</label>
+			<input type="text" id="age1" oninput="DrinkorNot()" required>
+			<br>
+			<input type="text" id="whattodrink" readonly>
+			<br><br>
+			
+			<label>Enter a string:</label>
+			<input type="text" id="number" oninput="StringToNumber()" required>
+			<br>
+			<label>Number:</label>
+			<input type="text" id="numberstring" readonly>
+			<br>
+			<label>Float:</label>
+			<input type="text" id="numstr" readonly>
+			<br>
+			<label>Int:</label>
+			<input type="text" id="ns" readonly>
+			<br><br>
+			
+			<label>Enter two numbers:</label>
+			<input type="number" id="number1" placeholder="enter first number" required>
+			<input type="number" id="number2" placeholder="enter second number" oninput="NumberToString()" required>
+			<br>
+			<label>String concatenation:</label>
+			<input type="text" id="stringvalue" readonly>
+			<br><br>
+			
+			<label>Enter some data to convert into boolean:</label>
+			<input type="text" id="b" oninput="BooleanData()" required>
+			<br>
+			<label>Boolean Value:</label>
+			<input type="text" id="booleanvalue" readonly>
+			<br><br>
+			
+			<label>Enter two values:</label>
+			<input type="text" id="one" placeholder="enter first value" required>
+			<input type="text" id="two" placeholder="enter second value" oninput="compare()" required>
+			<br>
+			<label>Equal or not:</label>
+			<input type="text" id="compare" placeholder="using==" readonly>
+			<br>
+			<input type="text" id="compare2" placeholder="using ===" readonly>
+			<br><br>
+			
+			<label>Enter two boolean values:</label>
+			<input type="text" id="a" placeholder="enter true or false" required>
+			<input type="text" id="b" placeholder="enter true or false" oninput="logical()" required>
+			<br>
+			<input type="text" id="comparing" readonly>
+		</form>
+	</body>
+</html>

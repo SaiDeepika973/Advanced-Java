@@ -1,0 +1,29 @@
+@charset "UTF-8";
+.design1
+{
+	color:darkblue;
+	text-align:center;
+	text-decoration:underline;
+	font-size:50px;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	outline-style:dashed;
+	font-style:italic;
+}
+.design2
+{
+	color:darkred;
+	text-align:left;
+	text-decoration:dashed;
+	font-size:25px;
+	font-family:cursive;
+	font-style:oblique;
+	}
+.design3
+{
+	background-color:green;
+	text-decoration:wavy;
+	text-align:right;
+	font-size:25px;
+	font-family:serif;
+	font-style:unset;
+}

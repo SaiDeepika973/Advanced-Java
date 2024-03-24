@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+#heading
+{
+	color:skyblue;
+	text-align:center;
+	border:2px solid;
+	margin-top:25px;
+	margin-bottom:50px;
+	margin-left:150px;
+	margin-right:50px;
+	background-color:red;
+}
+.mydesign
+{
+	color:skyblue;
+	text-align:center;
+	border:5px dotted;
+	font-size:50 px;
+	padding-top:25px;
+	padding-bottom:25px;
+	padding-left:50px;
+	padding-right:50px;
+}

@@ -1,0 +1,11 @@
+127.0.0.1 - - [09/Feb/2024:23:30:34 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [09/Feb/2024:23:32:42 +0530] "GET /ProductApplilcation/ HTTP/1.1" 404 775
+0:0:0:0:0:0:0:1 - - [09/Feb/2024:23:32:42 +0530] "GET /ProductApplilcation/ HTTP/1.1" 404 775
+0:0:0:0:0:0:0:1 - - [09/Feb/2024:23:32:42 +0530] "GET /ProductApplilcation/ HTTP/1.1" 404 775
+0:0:0:0:0:0:0:1 - - [09/Feb/2024:23:32:45 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [09/Feb/2024:23:32:45 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [09/Feb/2024:23:32:45 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [09/Feb/2024:23:33:14 +0530] "GET /ProductApplilcation/ProductServlet.html HTTP/1.1" 200 676
+0:0:0:0:0:0:0:1 - - [09/Feb/2024:23:41:08 +0530] "GET /ProductApplilcation/ProductServlet?proPrice=3000&proQuantity=2 HTTP/1.1" 404 789
+0:0:0:0:0:0:0:1 - - [09/Feb/2024:23:41:37 +0530] "GET /ProductApplilcation/ProductServlet?proPrice=3000&proQuantity=2ProductServlet.html HTTP/1.1" 404 789
+0:0:0:0:0:0:0:1 - - [09/Feb/2024:23:42:51 +0530] "GET /ProductApplilcation/ProductServlet?proPrice=3000&proQuantity=2ProductServlet HTTP/1.1" 404 789

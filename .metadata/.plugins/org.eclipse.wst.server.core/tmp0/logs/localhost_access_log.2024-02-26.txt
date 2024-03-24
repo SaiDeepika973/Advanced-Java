@@ -1,0 +1,4 @@
+127.0.0.1 - - [26/Feb/2024:15:51:46 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [26/Feb/2024:15:53:14 +0530] "GET /ServletCommunications/requestform.html HTTP/1.1" 200 430
+0:0:0:0:0:0:0:1 - - [26/Feb/2024:15:53:15 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [26/Feb/2024:15:53:29 +0530] "GET /ServletCommunications/RequestExample?username=Deepika&password=saidpka HTTP/1.1" 200 228

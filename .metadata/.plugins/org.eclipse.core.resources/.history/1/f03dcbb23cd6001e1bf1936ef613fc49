@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<title>Palindrome Check</title>
+		<script type="text/javascript" src="palindrome.js"></script>
+	</head>
+	<body>
+		<form>
+			<label>String:</label>
+			<input type="text" id="name" required>
+			<br><br>
+			
+			<input type="submit" value="check" onclick="palindromeCheck()">
+		</form>
+	</body>
+</html>

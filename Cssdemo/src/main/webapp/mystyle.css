@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+h1{
+	color:purple;
+	text-align:center;
+	text-decoration:underline;
+	font-size:25px;
+	font-family:Georgia, 'Times New Roman';
+	font-style:italic;
+}
+.mydesign{
+	color:orange;
+	text-align:right;
+	text-decoration:line-through;
+	font-size:35px;
+	font-family: 'Gill Sans';
+	font-style:italic;
+}
+#yourdesign
+{
+	color:red;
+	text-align:right;
+	text-decoration:line-through;
+	font-size:30px;
+	font-family:'Gill Sans';
+	font-style:italic;
+}
